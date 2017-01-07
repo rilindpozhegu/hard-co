@@ -1,0 +1,129 @@
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+/*
+**      My Editon
+*/
+
+.navbar-fixed-top {
+    background-color: transparent;
+    border: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.top-nav-collapse a {
+    color: white !important;
+}
+.navbar-nav>li>a {
+    padding: 10px 10px;
+}
+
+.navbar-header img {
+    width: 110px;
+    margin-top: 10px;
+}
+
+.moto_section {
+    margin: 10px 0px;
+    text-align: right;
+    padding-right: 15px;
+    font-family: 'Copperplate Gothic';
+    color: #cfd1d2;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+.navbar-toggle {
+    border: transparent;
+    margin-top: 17px;
+    margin-left: 25px;
+    float: left;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white; 
+}
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+      .navbar-header img {
+        width: 70px;
+        margin-top: 10px;
+        margin-right: 25px;
+        float: right;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: rgba(0, 0, 0, 0.76);
+    border: none;
+}
+
+}

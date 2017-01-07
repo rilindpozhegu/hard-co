@@ -1,0 +1,53 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+/* Copy right Section */
+
+.footer_all_pages {
+	background-color: #231f20; 
+	color: white;
+	padding: 25px 0px 10px;
+}
+
+.copy_section {
+	text-align: left;
+	font-family: 'Montserrat-Regular';
+}
+
+.social_section {
+	text-align: right;
+}
+
+.social_section i {
+	padding-left: 20px;
+	font-size: 18px;
+}

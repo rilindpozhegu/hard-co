@@ -1,0 +1,158 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+ body {
+  font-family: 'Copperplate Gothic';
+ }
+
+
+/*---------------------------------------------*/
+
+/*                  Main Page                  */
+
+/*---------------------------------------------*/
+
+
+
+
+/*----------------------*/
+/*      Four Panels     */
+/*----------------------*/
+
+.intro-section {
+    height: 100%;
+    padding-top: 170px;
+    text-align: center;
+    background: #fff;
+}
+
+.intro-section img {
+  width: 100%;
+}
+
+/* responsive */
+.right-carocel {
+    position: absolute;
+    top: 48%;
+}
+.left-carocel {
+    position: absolute;
+    top: 48%;
+}
+.right-carocel i {
+  color: red; 
+  font-size: 35px; 
+  font-weight: bolder;
+}
+
+.left-carocel i {
+  color: red;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+/*----------------------*/
+/*    Home page Text    */
+/*----------------------*/
+.home_2nd_section {
+  padding: 0px 0px 70px;
+}
+.home_2nd_section h4 {
+  text-align: center;
+  color: #231f20;
+  font-weight: bolder;
+}
+.line_one {
+   border-width: 3px 1px 0;
+   border-style: solid;
+   border-color: #231f20; 
+   width: 10%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.home_2nd_section p {
+  color: #4d5166;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home_2nd_section p span {
+  color: #231f20;
+}
+
+.line_two {  
+   border-width: 0.5px 0px 0;
+   border-style: solid;
+   border-color: #231f20; 
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.home_2nd_section .button-row {
+  text-align: center;
+}
+
+.button-row button {
+  background-color: transparent;
+  color: #4d5166;
+  font-family: 'Montserrat-Regular';
+  border: solid 1px #4d5166;
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+}
