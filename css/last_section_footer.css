@@ -65,3 +65,41 @@
 	font-family: 'CenturyGothic';
 	font-weight: bolder;
 }
+
+
+
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+	@media only screen and (max-width: 844px) {
+	.mobile-d-n {
+	    display: none;
+	  }
+	.last_section_footer {
+		padding: 40px 10px;
+	}
+	.text-section {
+		padding: 10px;
+	}
+	.text-section p {
+		font-size: 20px;
+	}
+	.buttons {
+		padding: 10px 10px;
+	}
+}

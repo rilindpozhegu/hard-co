@@ -1,0 +1,84 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+ body {
+  font-family: 'Copperplate Gothic';
+ }
+
+.no_padding {
+	padding: 0px;
+}
+
+/*---------------------------------------------*/
+
+/*                  Main Page                  */
+
+/*---------------------------------------------*/
+
+.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.61);
+    border: transparent;
+}
+.navbar-fixed-top a {
+	color: white !important;
+}
+
+
+/*	Cover On Mission Page  */
+
+.first_section_mission {
+	width: 100%;
+    background: url(../img/cover_2-01.png);
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 20%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.first_section_mission h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.first_section_mission p {
+	font-size: 18px;
+}
+
+.line_mission {
+   border-width: 3px 1px 0;
+   border-style: solid;
+   border-color: white; 
+   width: 10%;
+}

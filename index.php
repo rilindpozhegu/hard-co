@@ -25,52 +25,12 @@
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll navbar-left">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <img src="img/Hardco_PNG.png">
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                <p class="moto_section">
-                    Building legacies since 1976 
-                </p>
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="services.html">SERVICES</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contacts.html">CONTACT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="contacts.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+<?php
+    include('navigation_bar.php');
+?>
 
 
 
@@ -186,42 +146,23 @@
         </div>        
     </section>
 
+
 <!-- Last Section On Homepage Same with Other Pages -->
 
-<section class="last_section_footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-section">
-                <h1>Contact</h1>
-                <p>Please feel free to contact us for any <br>
-                   information/enquiry or if you have any <br>
-                   questions, comments or suggestions.</p>
-            </div>
-            <div class="col-md-6 buttons">
-                <button>Hardco Engineering</button>
-                <button>Hardco Building Contracting L.L.C.</button>
-                <button>Emirates ICA Building Materials</button>
-                <button>Hardco Tents & Sheds Ind. L.L.C /  <br>
-                Hartex Structures W.L.L (Qatar)</button>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+    include('last_section_contact.php');
+?>
 
 
-<!-- footer Section -->
-<footer class="footer_all_pages">
-    <div class="container">
-        <div class="col-md-6 copy_section">
-            <p>Copyright By Emirates Graphic 2016</p>
-        </div>
-        <div class="col-md-6 social_section">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
+
+<!-- Footer  -->
+
+<?php
+    include('footer.php');
+?>
+
+<!-- End Of footer  -->
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

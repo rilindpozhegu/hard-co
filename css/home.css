@@ -155,4 +155,11 @@
   .mobile-d-n {
     display: none;
   }
+    .home_2nd_section {
+      padding: 30px 10px;
+      text-align: center;
+    }
+    .home_2nd_section p {
+      font-size: 15px;
+    }
 }

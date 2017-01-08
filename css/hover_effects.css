@@ -89,27 +89,27 @@
 
 
 .box1:hover .top{
-  -webkit-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -moz-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -o-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
+  -webkit-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -moz-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -o-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
    top: 0px;
 }
 .box2:hover .top{
-  -webkit-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -moz-transition: all 0.5s cubic-bezier(.99,.99,0,.61);
-  -o-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
+  -webkit-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -moz-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -o-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
    top: 0px;
 }
 .box3:hover .top{
-  -webkit-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -moz-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -o-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
+  -webkit-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -moz-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -o-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
    top: 0px;
 }
 .box4:hover .top{
-  -webkit-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -moz-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
-  -o-transition: all 0.2s cubic-bezier(.99,.99,0,.61);
+  -webkit-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -moz-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
+  -o-transition: all 0.15s cubic-bezier(.99,.99,0,.61);
    top: 0px;
 }
 
