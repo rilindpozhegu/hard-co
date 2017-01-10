@@ -55,24 +55,24 @@
 
 /*	Cover On Mission Page  */
 
-.first_section_mission {
+.intro_cover_clientele {
 	width: 100%;
-    background: url(../img/cover_2-01.png);
+    background: url(../img/clientele_cover-01.png);
     background-attachment: fixed;
     overflow: hidden;
     background-position: 50% 20%;
-    padding: 180px 0px 150px;
+    padding: 300px 0px 150px;
     background-size: cover;
     height: auto;
     color: white;
 }
 
-.first_section_mission h3 {
+.intro_cover_clientele h3 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.first_section_mission p {
+.intro_cover_clientele p {
 	font-size: 18px;
 }
 
@@ -81,4 +81,59 @@
    border-style: solid;
    border-color: white; 
    width: 10%;
+}
+
+
+
+/*  Our Clientele Logo Section */
+
+
+.our_clientele_logo {
+  padding: 40px 10px;
+}
+
+.our_clientele_logo h4 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.our_clientele_logo img {
+  width: 100%;
+}
+
+.our_clientele_logo hr {
+  border-width: 3px 1px 0;
+  border-style: solid;
+  border-color: #231f20;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
 }

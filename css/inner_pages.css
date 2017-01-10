@@ -1,0 +1,444 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+ body {
+  font-family: 'Copperplate Gothic';
+ }
+
+.no_padding {
+	padding: 0px;
+}
+
+/*---------------------------------------------*/
+
+/*                  Main Page                  */
+
+/*---------------------------------------------*/
+
+.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.61);
+    border: transparent;
+}
+.navbar-fixed-top a {
+	color: white !important;
+}
+
+
+/*      Fist Text Section on inner pages    */
+
+.text_section_inner {
+  padding: 40px;
+  text-align: center;
+}
+
+.text_section_inner h4 {
+  font-weight: bolder;
+}
+
+.text_section_inner p {
+  font-size: 15px;
+}
+
+.text_section_inner hr {
+    border-width: 3px 1px 0;
+    border-style: solid;
+    border-color: #231f20;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------------------*/
+/*        Inner pages Slider       */
+/*---------------------------------*/
+
+/*Innerpage 1 */
+
+.inner_page_3601 {
+    width: 100%;
+    background: url("../img/inner360 (1).JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.inner_panel1 {
+    width: 100%;
+    background: url("../img/inner1_bg1-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.panel_inner_text {
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 120px 100px;
+}
+
+.panel_inner_text p {
+  font-size: 16px;
+}
+
+.inner_panel2 {
+    width: 100%;
+    background: url("../img/inner1_bg2-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_panel3 {
+    width: 100%;
+    background: url("../img/inner1_bg3-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_page_3602 {
+    width: 100%;
+    background: url("../img/inner360 (2).JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+
+
+
+
+
+
+/*Innerpage 1 Building And Construction*/
+
+
+.inner_page_2360 {
+    width: 100%;
+    background: url("../img/inner2360 (1).JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.inner_panel1_2 {
+    width: 100%;
+    background: url("../img/inner2_bg1-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.panel_inner_text {
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 120px 100px;
+}
+
+.panel_inner_text p {
+  font-size: 16px;
+}
+
+.inner_panel2_2 {
+    width: 100%;
+    background: url("../img/inner2_bg2-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_panel3_2 {
+    width: 100%;
+    background: url("../img/inner2_bg3-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+.inner_panel4_2 {
+    width: 100%;
+    background: url("../img/inner2_bg4-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_page_23602 {
+    width: 100%;
+    background: url("../img/inner2360 (2).JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Innerpage 1 Building And Construction*/
+
+
+.inner_page_3360 {
+    width: 100%;
+    background: url("../img/inner3360.JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.inner_panel1_3 {
+    width: 100%;
+    background: url("../img/inner3_bg1-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.panel_inner_text {
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 120px 100px;
+}
+
+.panel_inner_text p {
+  font-size: 16px;
+}
+
+.inner_panel2_3 {
+    width: 100%;
+    background: url("../img/inner3_bg3-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_page_33602 {
+    width: 100%;
+    background: url("../img/inner2360 (2).JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Wood Coatings*/
+
+
+/*.inner_page_4360 {
+    width: 100%;
+    background: url("../img/inner3360.JPG");
+    overflow: hidden;
+    background-position: 50% 25%;
+    padding: 180px 0px 150px;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}*/
+
+.inner_panel1_4 {
+    width: 100%;
+    background: url("../img/inner4_bg1-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.panel_inner_text {
+  background-color: rgba(0, 0, 0, 0.41);
+  padding: 120px 100px;
+}
+
+.panel_inner_text p {
+  font-size: 16px;
+}
+
+
+
+
+.inner_panel2_4 {
+    width: 100%;
+    background: url("../img/inner4_bg2-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+.inner_panel2_4 p {
+  font-size: 14px;
+}
+
+.inner_panel2_4 ul li p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+.inner_panel3_4 {
+    width: 100%;
+    background: url("../img/inner4_bg2-0s1.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_panel3_4 .small_fonts p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+.inner_panel4_4 {
+    width: 100%;
+    background: url("../img/inner4_bg2-0s1.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.inner_panel4_4 ul li p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.inner_panel4_5 {
+    width: 100%;
+    background: url("../img/inner4_bg5-01.png");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  .panel_inner_text {
+    padding: 100px 15px;
+  }
+}

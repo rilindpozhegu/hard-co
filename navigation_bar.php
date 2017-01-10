@@ -18,23 +18,24 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="#" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="portfolio.html">PORTFOLIO</a>
+                        <a class="#" href="index">HOME</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="services.html">SERVICES</a>
+                        <a class="#" href="mission">OUR MISSION</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contacts.html">CONTACT</a>
+                        <a class="#" href="clientele">CLIENTELE</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contacts.html">CONTACT</a>
+                        <a href="testimonials">TESTIMONIALS</a>
+                    </li>
+                    <li>
+                        <a class="#" href="contacts">CONTACT</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>

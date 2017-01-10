@@ -1,0 +1,65 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+ body {
+  font-family: 'Copperplate Gothic';
+ }
+
+.no_padding {
+    padding: 0px;
+}
+
+/*---------------------------------------------*/
+
+/*                  Main Page                  */
+
+/*---------------------------------------------*/
+.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.61);
+    border: transparent;
+}
+.navbar-fixed-top a {
+    color: white !important;
+}
+
+
+.map_section {
+    padding-top: 135px;
+    margin-bottom: -20px;
+}
+
+
+
+/*dont Scroll the map*/
+.maps iframe{
+    pointer-events: none;
+}

@@ -1,7 +1,7 @@
 <!-- footer Section -->
 <footer class="footer_all_pages">
     <div class="container">
-        <div class="col-md-6 copy_section">
+        <div class="col-md-6 copy_section mobile-d-n">
             <p>Copyright By Emirates Graphic 2016</p>
         </div>
         <div class="col-md-6 social_section">

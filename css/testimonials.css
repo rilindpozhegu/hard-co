@@ -1,0 +1,152 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+
+/*===========
+  Fonts
+============*/
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('../fonts/Copperplate Gothic Light Regular.ttf');
+ }
+
+@font-face {
+  font-family: 'ufonts.com_gillsans';
+  src: url('../fonts/ufonts.com_gillsans.ttf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+
+
+ body {
+  font-family: 'Copperplate Gothic';
+ }
+
+.no_padding {
+    padding: 0px;
+}
+
+/*---------------------------------------------*/
+
+/*                  Main Page                  */
+
+/*---------------------------------------------*/
+.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.61);
+    border: transparent;
+}
+.navbar-fixed-top a {
+	color: white !important;
+}
+
+
+.testimonial_cover_image {
+	width: 100%;
+    background: url(../img/testimonial_cover-01.png);
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 50%;
+    padding: 300px 0px 150px;
+    background-size: cover;
+    height: 700px;
+    color: white;
+}
+
+
+/* Testimonial Second Section With text and image */
+
+.testimonil_text_section {
+	padding: 40px 0px;
+}
+
+.testimonil_text_section img {
+	width: 100%;
+}
+
+.testimonil_text_section h4 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+.testimonil_text_section h5 {
+	font-weight: bolder;
+}
+.testimonil_text_section p {
+	font-size: 14px;	
+}
+.text-testimonials {
+	padding-top: 50px;
+}
+
+/*
+///////////////////////////////////////////////////
+  Testimonials Section Homepage
+///////////////////////////////////////////////////
+*/
+.testimonials_section {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.testimonials_section h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px; 
+  font-weight: bolder;
+}
+.testimonials_section span {
+  color: #b3b3b3;  
+  font-family: "Montserrat-Light";
+}
+
+.section-3_title p {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.horizontal_padding-testimonial {
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+.panel-testimonial1 img {
+  border-radius: 150px;
+  padding: 10px;
+  width: 250px;
+  margin-bottom: -120px;
+  background: transparent;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  transition: ease-in-out 0.3s all;
+}
+.panel-testimonial1:hover img {
+    -webkit-filter: grayscale(0%);
+    background: white;
+}
+.panel-testimonial1 .testimonial_text {
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 20px;
+  transition: ease-in-out all 0.3s;
+}
+.panel-testimonial1:hover .testimonial_text {
+  background-color: white;
+}
+.testimonial_text h1 {
+  margin-top: 95px;
+}
+/*
+** Testimonials on Mobile Devices 
+*/
+

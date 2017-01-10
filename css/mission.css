@@ -98,6 +98,16 @@
 	font-size: 16px;
 }
 
+.our_mission_text hr {
+  border-width: 3px 1px 0;
+  border-style: solid;
+  border-color: #231f20;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* 	Big Cover photo on Misison page*/
 
 .big_cover_mission2 {
@@ -126,10 +136,43 @@
 	margin-bottom: 5px;
 }
 
-.testimonial_seciton_mission span {
+.testimonial_seciton_mission h4 {
 	color: #cfd1d2;
 	font-size: 17px;
 }
 .testimonial_seciton_mission p {
 	padding-top: 10px;
+  font-size: 14px;
+}
+
+
+/*---------------------------------------------*/
+
+/*                  Responsive                 */
+
+/*---------------------------------------------*/
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  .first_section_mission {
+  	padding: 100px 10px;
+  }
+  .testimonial_seciton_mission h3{
+  	text-align: center;
+  }
+  .testimonial_seciton_mission h4 {
+  	text-align: center;
+  }
 }

@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
+    <!-- Animations.css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -38,32 +40,32 @@
     <section id="intro" class="intro-section mobile-d-n">
         <div class="container">
             <div class="row">
-            <a href="www.google.com">
-                <div class="col-md-3 no-padding">
+            <a href="structural_steel">
+                <div class="col-md-3 no-padding wow zoomIn" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="box1">
                         <div class="cover top">
                         </div>
                     </div>
                 </div>
             </a>    
-            <a href="#">
-                <div class="col-md-3 no-padding">
+            <a href="building_construction">
+                <div class="col-md-3 no-padding wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="box2">
                         <div class="cover2 top">
                         </div>
                     </div>
                 </div>
             </a>
-            <a href="#">    
-                <div class="col-md-3 no-padding">
+            <a href="tensile_fabric_membrane_structure">    
+                <div class="col-md-3 no-padding wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="box3">
                         <div class="cover3 top">
                         </div>
                     </div>
                 </div>
             </a>
-            <a href="#">    
-                <div class="col-md-3 no-padding">
+            <a href="wood_coatings">    
+                <div class="col-md-3 no-padding wow zoomIn" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="box4">
                         <div class="cover4 top">
                           <!-- <h2 class="title">Example Post Title</h2>
@@ -77,6 +79,10 @@
             </div>
         </div>
     </section>
+
+
+<div class="clearfix"></div>
+
 
 <div id="carousel-example-generic" class="carousel slide desktop-d-n" data-ride="carousel">
   <!-- Indicators -->
@@ -134,12 +140,12 @@
     <section class="home_2nd_section">
         <div class="container">
             <div class="row">
-                <h4>HARDCO GROUP</h4>
-                <hr class="line_one">
-                <p>The <span>Hardco Group</span> is a multidisciplinary company established in <span>1976</span> with a vision to contribute to the diverse engineering requirements in the GCC region.</p>
-                <p>With over four decades of excellence , Hardco provides specialist solutions to our clients in the fields of <span> civil engineering, structural steel engineering, tensile membrane systems</span> and <span>wood coating</span> solutions.</p>
-                <hr class= "line_two">
-                <div class="col-md-12 button-row">
+                <h4 class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">HARDCO GROUP</h4>
+                <hr class="line_one wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">
+                <p class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">The <span>Hardco Group</span> is a multidisciplinary company established in <span>1976</span> with a vision to contribute to the diverse engineering requirements in the GCC region.</p>
+                <p class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">With over four decades of excellence , Hardco provides specialist solutions to our clients in the fields of <span> civil engineering, structural steel engineering, tensile membrane systems</span> and <span>wood coating</span> solutions.</p>
+                <hr class= "line_two wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">
+                <div class="col-md-12 button-row wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                     <button>More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
             </div>
@@ -178,6 +184,12 @@
         $('.carousel').carousel({
           interval: 5000
         })
+    </script>
+
+        <!-- Animation JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
     </script>
 </body> 
 
