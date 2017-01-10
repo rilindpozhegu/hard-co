@@ -157,10 +157,10 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4>Hardco Engineering Co.</h4>
-      <span>Structural Steel</span>
-      <hr class="first_text_line">
-      <p>Hardco utilizes most appropriate technologies to ensure <br>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Hardco Engineering Co.</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Structural Steel</span>
+      <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Hardco utilizes most appropriate technologies to ensure <br>
       Outstanding performance and quality in all our steel<br>
       fabrications. Through the history of the company we <br>
       have undergone technological innovations
@@ -172,7 +172,7 @@
 
 
 <!-- 360 imaage -->
-<section class="image360 inner_page_3601"></section>
+<section class="image360 inner_page_3601  wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s"></section>
 
 
 
@@ -182,9 +182,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p>We have carried out a wide spectrum of services in fabrication and erection of specialized steel works and civil as well with competitive prices 
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">We have carried out a wide spectrum of services in fabrication and erection of specialized steel works and civil as well with competitive prices 
         without compromising in quality.</p>
-        <p>To that end, our mission is: To add value to our customers and business partners through the 
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">To that end, our mission is: To add value to our customers and business partners through the 
         unequivocal quality of our services and products.</p>
       </div>
     </div>
@@ -202,9 +202,9 @@
     <div class="row">
     <div class="col-md-6"></div>
       <div class="col-md-6 panel_inner_text">
-        <p>To ensure the longevity of our company through maintaining our commitment to introduce innovative and effective solutions for our clients.</p>
-To work with integrity, honesty and reliability and never go off at a tangent  from our corporate social responsibilities.</p>
-        <p>Hardco Engineering  have design that combines art, science, aesthetics & engineering. Each structure is well suited  to meet the specifics of the region.</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">To ensure the longevity of our company through maintaining our commitment to introduce innovative and effective solutions for our clients.</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">To work with integrity, honesty and reliability and never go off at a tangent  from our corporate social responsibilities.</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Hardco Engineering  have design that combines art, science, aesthetics & engineering. Each structure is well suited  to meet the specifics of the region.</p>
       </div>
     </div>
   </div>
@@ -220,8 +220,8 @@ To work with integrity, honesty and reliability and never go off at a tangent  f
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p>We operate from our evolutionary manufacturing & fabrication factories to design & build structures that focus on form, function, engineering & service</p>
-        <p>Our Factories are equipped with state-of-art CNC & NC machines & handled by a team of qualified & 
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">We operate from our evolutionary manufacturing & fabrication factories to design & build structures that focus on form, function, engineering & service</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Our Factories are equipped with state-of-art CNC & NC machines & handled by a team of qualified & 
 experienced personnel.</p>
     <div class="col-md-6"></div>
       </div>
@@ -253,6 +253,12 @@ experienced personnel.</p>
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+        <!-- Animation JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body> 
 
 </html>

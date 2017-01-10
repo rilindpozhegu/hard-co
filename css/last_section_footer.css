@@ -7,7 +7,12 @@
 /*====================================*/
 
 
-
+button:active {
+	outline: none !important;
+}
+button:focus {
+	outline: none !important; 
+}
 
 /*===========
   Fonts
@@ -64,8 +69,12 @@
 	border-radius: 5px;
 	font-family: 'CenturyGothic';
 	font-weight: bolder;
+	transition: ease-in-out all 0.2s;
 }
 
+.buttons button:hover {
+	background-color:rgba(35, 31, 32, 0.7);
+}
 
 
 

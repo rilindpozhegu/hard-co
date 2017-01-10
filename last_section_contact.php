@@ -9,11 +9,11 @@
                    questions, comments or suggestions.</p>
             </div>
             <div class="col-md-5 buttons">
-                <button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">Hardco Engineering</button>
-                <button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">Hardco Building Contracting L.L.C.</button>
-                <button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">Emirates ICA Building Materials</button>
-                <button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">Hardco Tents & Sheds Ind. L.L.C /  <br>
-                Hartex Structures W.L.L (Qatar)</button>
+                <a href="structural_steel"><button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">Hardco Engineering</button></a>
+                <a href="building_construction"><button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">Hardco Building Contracting L.L.C.</button></a>
+                <a href="tensile_fabric_membrane_structure"><button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">Emirates ICA Building Materials</button></a>
+                <a href="wood_coatings"><button class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">Hardco Tents & Sheds Ind. L.L.C /  <br>
+                Hartex Structures W.L.L (Qatar)</button></a>
             </div>
         </div>
     </div>

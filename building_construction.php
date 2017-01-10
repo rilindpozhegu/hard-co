@@ -126,10 +126,10 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4>Building & Construction</h4>
-      <span>Hardco Building Contracting L.L.C</span>
-      <hr class="first_text_line">
-      <p>The goals of HARDCO Building Contracting LLC are driven by the sheer need to provide cutting edge<br>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Building & Construction</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Hardco Building Contracting L.L.C</span>
+      <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">The goals of HARDCO Building Contracting LLC are driven by the sheer need to provide cutting edge<br>
        building contracting  services that think beyond architectural  design.<br>
 Our team is comprised of the industry's top technicians including Masons, carpenters, electricians, <br>
  ground workers, plumbers, welders, surveyors, engineers, project managers, building refurbishment<br>
@@ -153,8 +153,8 @@ Our team is comprised of the industry's top technicians including Masons, carpen
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;">Warehouses on turnkey projects</p>
-        <p>HARDCO Building Contracting   LLC constructs 
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Warehouses on turnkey projects</p>
+        <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">HARDCO Building Contracting   LLC constructs 
 warehouses on a turnkey basis where we design, supply and install the products required to complete the project. We have maintained a long-term 
 relationship with our customers through our value added services and constant upgrades for effective warehouse-centric operations.
 .</p>
@@ -174,8 +174,8 @@ relationship with our customers through our value added services and constant up
     <div class="row">
     <div class="col-md-6"></div>
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;">Office Buildings</p>
-        <p>HARDCO offers its extensive experience in building office spaces that can cater to warehousing, retail, call centers and/or business and administrative 
+        <p style="font-weight: bolder;"  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Office Buildings</p>
+        <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">HARDCO offers its extensive experience in building office spaces that can cater to warehousing, retail, call centers and/or business and administrative 
         facilities that serve as  corporate headquarters. Our spaces are designed to meet strict aesthetic as well as functional requirements.</p>
       </div>
     </div>
@@ -192,8 +192,8 @@ relationship with our customers through our value added services and constant up
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;">Interlocking pavers for Ports</p>
-        <p>The integrity of interlocking pavers for ports depends on its ability to withstand years of abuse at ports where heavy cargo trucks pass through constantly. HARDCO promises to deliver just that, guaranteeing that our products and craftsmanship will prove to be of high quality and low maintenance.</p>
+        <p style="font-weight: bolder;"  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Interlocking pavers for Ports</p>
+        <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">The integrity of interlocking pavers for ports depends on its ability to withstand years of abuse at ports where heavy cargo trucks pass through constantly. HARDCO promises to deliver just that, guaranteeing that our products and craftsmanship will prove to be of high quality and low maintenance.</p>
     <div class="col-md-6"></div>
       </div>
     </div>
@@ -209,8 +209,8 @@ relationship with our customers through our value added services and constant up
     <div class="row">
     <div class="col-md-6"></div>
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder">Accommodations (labour)</p>
-        <p>With the intent of facilitating optimal living standards for workers and labourers in the UAE, HARDCO 
+        <p style="font-weight: bolder"  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Accommodations (labour)</p>
+        <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">With the intent of facilitating optimal living standards for workers and labourers in the UAE, HARDCO 
 provides the necessary skilled professionals and products to construct high standard residential units with top-notch facilities at competitive prices.</p>
       </div>
     </div>
@@ -241,6 +241,12 @@ provides the necessary skilled professionals and products to construct high stan
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+        <!-- Animation JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body> 
 
 </html>

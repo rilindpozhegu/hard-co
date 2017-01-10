@@ -135,10 +135,10 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4>Tensile Membrane Structure</h4>
-      <span>Hardco Tents & Sheds</span>
-      <hr class="first_text_line">
-      <p>Design that combines art, science, aesthetics and engineering defines HARDCO Tensile Membrane Structures. Each <br>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Tensile Membrane Structure</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Hardco Tents & Sheds</span>
+      <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Design that combines art, science, aesthetics and engineering defines HARDCO Tensile Membrane Structures. Each <br>
 structure is well suited and tailored to meet the specifics of the region. HARDCO's membranes are durable, dimensionally<br>
  stable and specially treated against fire and UV factors. We have been admired by our clients and respected by our <br>
 industry for delivering on time product that consistently exceeds the expectations of our clients. <br>
@@ -165,8 +165,8 @@ engineering department comprises of mechanical, structural and project managemen
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;">Installation</p>
-        <p>Our team of trained installers have extensive experience in the delicate procedures of installing HARDCO's unique brand architectural membranes. Quality control and safety site supervisors will oversee the installation process to ensure that the final product reflects our 
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Installation</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Our team of trained installers have extensive experience in the delicate procedures of installing HARDCO's unique brand architectural membranes. Quality control and safety site supervisors will oversee the installation process to ensure that the final product reflects our 
 exacting standards.
 Across the GCC region, the HARDCO designed and 
 installed architectural membranes stand as a testimony to our list of satisfied customers.</p>
@@ -186,8 +186,8 @@ installed architectural membranes stand as a testimony to our list of satisfied 
     <div class="row">
     <div class="col-md-6"></div>
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;">Fabrics Used </p>
-        <p>Mesh - Knitted Shade Cloth <br>
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Fabrics Used </p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Mesh - Knitted Shade Cloth <br>
           PVC Coated Polyester<br>
           PTFE - Teflon Coated Glass Cloth<br>
           ePTFE   - Glass Cloth<br>
@@ -226,6 +226,12 @@ installed architectural membranes stand as a testimony to our list of satisfied 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+        <!-- Animation JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body> 
 
 </html>
