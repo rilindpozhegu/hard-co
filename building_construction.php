@@ -25,13 +25,28 @@
     <link rel="stylesheet" type="text/css" href="css/hover_effects.css">
     <link rel="stylesheet" type="text/css" href="css/last_section_footer.css">
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
-    <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+
+    <!-- Preloader Objects -->
+
+    <div id="overlay">
+        <div class="center-preloader">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+
+
+
     <!-- Navigation -->
+
 <?php
     include('navigation_bar.php');
 ?>
@@ -143,8 +158,8 @@ Our team is comprised of the industry's top technicians including Masons, carpen
 
 
 <!-- 360 imaage -->
-<section class="image360 inner_page_2360"></section>
-
+<!-- <section class="image360 inner_page_2360"></section> -->
+<div class="cycle3 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
 
 
 <!-- First Panel Innerpage -->
@@ -221,7 +236,8 @@ provides the necessary skilled professionals and products to construct high stan
 
 <!-- 360 nd -->
 
-<section class="inner_page_23602"></section>
+<section class="inner_page_23602 desktop-d-n"></section>
+<div class="cycle4 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
 
 <!-- Footer  -->
 
@@ -230,7 +246,18 @@ provides the necessary skilled professionals and products to construct high stan
 ?>
 
 <!-- End Of footer  -->
-
+<style type="text/css">
+        .cycle3 {
+        background-image: url(img/innperpage2360-01.jpg);
+        height: 512px;
+        cursor: move;
+      }
+      .cycle4 {        
+        background-image: url(img/innperpage23602-01.jpg);
+        height: 512px;
+        cursor: move;
+      }
+</style>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -241,11 +268,25 @@ provides the necessary skilled professionals and products to construct high stan
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
+    <script type="text/javascript" src="js/preloader.js"></script>
         <!-- Animation JS -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+
+
+    <!--  360* Images  -->
+    <script src="js/jquery.cyclotron.js"></script>
+    <script type="text/javascript">
+      // 360* Image Cover
+
+          $(document).ready(function ($) {
+            $('.cycle3').cyclotron();
+          });
+          $(document).ready(function ($) {
+            $('.cycle4').cyclotron();
+          });
     </script>
 </body> 
 

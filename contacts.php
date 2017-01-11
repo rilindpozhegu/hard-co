@@ -26,9 +26,24 @@
     <link rel="stylesheet" type="text/css" href="css/last_section_footer.css">
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+    <!-- Preloader Objects -->
+
+    <div id="overlay">
+        <div class="center-preloader">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+
+
 
     <!-- Navigation -->
 <?php
@@ -84,6 +99,7 @@
     
         <!-- Animation JS -->
     <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
     <script>
         new WOW().init();
     </script>

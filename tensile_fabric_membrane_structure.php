@@ -27,9 +27,24 @@
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
     <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+    <!-- Preloader Objects -->
+
+    <div id="overlay">
+        <div class="center-preloader">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+
+
 
     <!-- Navigation -->
 <?php
@@ -155,7 +170,8 @@ engineering department comprises of mechanical, structural and project managemen
 
 
 <!-- 360 imaage -->
-<section class="image360 inner_page_3360"></section>
+<section class="image360 inner_page_3360 desktop-d-n"></section>
+<div class="cycle5 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
 
 
 
@@ -216,6 +232,14 @@ installed architectural membranes stand as a testimony to our list of satisfied 
 
 <!-- End Of footer  -->
 
+<!-- 360* images  -->
+<style type="text/css">
+        .cycle5 {
+        background-image: url(img/innperpage3360-01.jpg);
+        height: 512px;
+        cursor: move;
+      }
+</style>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -226,11 +250,23 @@ installed architectural membranes stand as a testimony to our list of satisfied 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
 
         <!-- Animation JS -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+
+
+    <!--  360* Images  -->
+    <script src="js/jquery.cyclotron.js"></script>
+    <script type="text/javascript">
+      // 360* Image Cover
+
+          $(document).ready(function ($) {
+            $('.cycle5').cyclotron();
+          });
     </script>
 </body> 
 

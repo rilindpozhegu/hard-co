@@ -140,9 +140,19 @@
 /*                  Responsive                 */
 
 /*---------------------------------------------*/
+.carousel-control.right {
+  background-image: none!important;
+}
+.carousel-control.right:hover {
+  background-image: none !important;
+}
 
-
-
+.carousel-control.left {
+  background-image: none!important;
+}
+.carousel-control.left:hover {
+  background-image: none !important;
+}
 /*Only in desktop*/
 @media only screen and (min-width: 844px) {
     .desktop-d-n {

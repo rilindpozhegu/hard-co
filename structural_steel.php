@@ -25,13 +25,27 @@
     <link rel="stylesheet" type="text/css" href="css/hover_effects.css">
     <link rel="stylesheet" type="text/css" href="css/last_section_footer.css">
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
-    <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Preloader -->
 
-    <!-- Navigation -->
+
+    <!-- Preloader Objects -->
+
+    <div id="overlay">
+        <div class="center-preloader">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+
+
+
 <?php
     include('navigation_bar.php');
 ?>
@@ -172,9 +186,8 @@
 
 
 <!-- 360 imaage -->
-<section class="image360 inner_page_3601  wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s"></section>
-
-
+    <!-- <section class="inner_page_3601 desktop-d-n"></section>  -->
+    <div class="cycle mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
 
 <!-- First Panel Innerpage -->
 
@@ -233,7 +246,9 @@ experienced personnel.</p>
 
 <!-- 360 nd -->
 
-<section class="inner_page_3602"></section>
+<section class="inner_page_3602 desktop-d-n"></section>
+
+  <div class="cycle2 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
 
 <!-- Footer  -->
 
@@ -244,6 +259,20 @@ experienced personnel.</p>
 <!-- End Of footer  -->
 
 
+
+<style type="text/css">
+        .cycle {
+        background-image: url(img/innperpage1360-01.jpg);
+        height: 512px;
+        cursor: move;
+      }
+      .cycle2 {        
+        background-image: url(img/innperpage13602-01.jpg);
+        height: 512px;
+        cursor: move;
+      }
+</style>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -253,12 +282,26 @@ experienced personnel.</p>
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
 
         <!-- Animation JS -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-</body> 
 
+    <!--  360* Images  -->
+    <script src="js/jquery.cyclotron.js"></script>
+
+    <script type="text/javascript">
+      // 360* Image Cover
+
+          $(document).ready(function ($) {
+            $('.cycle').cyclotron();
+          });
+          $(document).ready(function ($) {
+            $('.cycle2').cyclotron();
+          });
+    </script>
+</body> 
 </html>

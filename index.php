@@ -24,10 +24,22 @@
     <link rel="stylesheet" type="text/css" href="css/hover_effects.css">
     <link rel="stylesheet" type="text/css" href="css/last_section_footer.css">
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="overlay">
+        <!-- <img src="img/logo-elisa1.png" > -->
+        <div class="center-preloader">
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_one"></div>
+        </div>
+    </div>
+
 
     <!-- Navigation -->
 <?php
@@ -95,32 +107,41 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
+  <a href="structural_steel">
     <div class="item active">
       <img src="img/slider1-01.png" alt="...">
-      <div class="carousel-caption">
-        <h1>Structural Steel </h1>
-        <p>Hardco Engineering Co.</p>
-      </div>
+          <div class="carousel-caption">          
+              <a href="structural_steel" style="text-decoration: none; color: white;">
+                <h1>Structural Steel </h1>
+                <p>Hardco Engineering Co.</p>
+              </a>
+          </div>
     </div>
     <div class="item">
       <img src="img/slider2-01.png" alt="...">
       <div class="carousel-caption">
-        <h1>Structural Steel </h1>
-        <p>Hardco Engineering Co.</p>
+              <a href="building_construction" style="text-decoration: none; color: white;">
+                <h1>Building and Consstruction</h1>
+                <p>Hardco Engineering Co.</p>
+              </a>
       </div>
     </div>
     <div class="item">
       <img src="img/slider3-01.png" alt="...">
       <div class="carousel-caption">
-        <h1>Structural Steel </h1>
-        <p>Hardco Engineering Co.</p>
+              <a href="tensile_fabric_membrane_structure" style="text-decoration: none; color: white;">
+                <h1>Tensile Fabric Membrane Structures </h1>
+                <p>Hardco Engineering Co.</p>
+              </a>
       </div>
     </div>
     <div class="item">
       <img src="img/slider4-01.png" alt="...">
       <div class="carousel-caption">
-        <h1>Structural Steel </h1>
-        <p>Hardco Engineering Co.</p>
+              <a href="wood_coatings" style="text-decoration: none; color: white;">
+                <h1>Wood Coatings</h1>
+                <p>Hardco Engineering Co.</p>
+              </a>
       </div>
     </div>
   </div>
@@ -146,7 +167,7 @@
                 <p class=" wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">With over four decades of excellence , Hardco provides specialist solutions to our clients in the fields of <span> civil engineering, structural steel engineering, tensile membrane systems</span> and <span>wood coating</span> solutions.</p>
                 <hr class= "line_two wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">
                 <div class="col-md-12 button-row wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
-                    <button>More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <a href="mission"><button>More <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div>
         </div>        
@@ -179,6 +200,9 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
+    <!-- Preloaader  -->
+    <script type="text/javascript" src="js/preloader.js"></script>
 
     <script type="text/javascript">
         $('.carousel').carousel({

@@ -27,9 +27,24 @@
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
     <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+    <!-- Preloader Objects -->
+
+    <div id="overlay">
+        <div class="center-preloader">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+
+
 
     <!-- Navigation -->
 <?php
@@ -225,7 +240,7 @@ products.</p>
     <div class="col-md-6"></div>
     <div class="col-md-6"></div>
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder; class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"">Walcom / Meiji</p>
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Walcom / Meiji</p>
       <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Paint spraying equipments, Spray guns, Auto 
 pressure air tanks, Paint spray pumps & Air dusters, After Sales Services/Spare Parts.
 Our customers and users can find among our 
@@ -261,6 +276,7 @@ products the solutions to many problems of coating applications, improving their
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
+    <script type="text/javascript" src="js/preloader.js"></script>
         <!-- Animation JS -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
