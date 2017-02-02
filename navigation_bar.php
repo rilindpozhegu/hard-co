@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="img/Hardco_PNG.png">
+                <a href="index"><img src="img/Hardco_PNG.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

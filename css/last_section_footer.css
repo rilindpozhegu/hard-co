@@ -38,7 +38,14 @@ button:focus {
     background-position: 50% 20%;
     background-size: cover;
 }
-
+.last_section_footer span {
+	color: white;
+	font-size: 16px;
+}
+.last_section_footer a {
+	color: white;
+	text-decoration: none;
+}
 .text-section {
 	padding: 60px 0px;
 }

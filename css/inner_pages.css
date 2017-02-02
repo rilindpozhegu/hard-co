@@ -49,8 +49,11 @@ html, body {
 /*                  Main Page                  */
 
 /*---------------------------------------------*/
-
 .navbar-fixed-top {
+    background-color: rgb(74, 73, 73);
+    border: transparent;
+}
+.top-nav-collapse {
     background-color: rgba(0, 0, 0, 0.61);
     border: transparent;
 }
@@ -58,20 +61,27 @@ html, body {
 	color: white !important;
 }
 
+.carousel {
+    padding-top: 7.5%;
+}
 
 /*      Fist Text Section on inner pages    */
 
 .text_section_inner {
-  padding: 40px;
+  padding: 48px;
   text-align: center;
 }
 
 .text_section_inner h4 {
   font-weight: bolder;
+  font-size: 40px;
 }
 
+.text_section_inner span {
+    font-size: 16px;
+}
 .text_section_inner p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .text_section_inner hr {
@@ -295,6 +305,15 @@ html, body {
     color: white;
 }
 
+.inner_panel3_3 {
+    width: 100%;
+    background: url("../img/tent_example.jpg");
+    overflow: hidden;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
 
 
 
@@ -367,7 +386,7 @@ html, body {
 
 .inner_panel3_4 {
     width: 100%;
-    background: url("../img/inner4_bg2-0s1.png");
+    background: url("../img/wood-innder-bg3-01.png");
     overflow: hidden;
     background-position: 50% 25%;
     background-size: cover;
@@ -386,7 +405,7 @@ html, body {
 
 .inner_panel4_4 {
     width: 100%;
-    background: url("../img/inner4_bg2-0s1.png");
+    background: url("../img/wood-innder-bg-4-01.png");
     overflow: hidden;
     background-position: 50% 25%;
     background-size: cover;
@@ -441,4 +460,7 @@ html, body {
   .panel_inner_text {
     padding: 100px 15px;
   }
+  .carousel {
+    padding-top: 10%;
+}
 }

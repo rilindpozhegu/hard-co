@@ -26,7 +26,10 @@
     <link rel="stylesheet" type="text/css" href="css/last_section_footer.css">
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
-    <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">\
+
+<!-- Slider Style -->
+<link rel="stylesheet" href="css/my-slider.css"/>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -35,7 +38,7 @@
 
     <!-- Preloader Objects -->
 
-    <div id="overlay">
+    <div id="overlay" class="mobile-d-n">
         <div class="center-preloader">
             <div class="object" id="object_one"></div>
             <div class="object" id="object_two"></div>
@@ -51,143 +54,54 @@
 ?>
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="12"></li>
+
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" data-image_fx="zoompan" id="my-slider">
+  <ol>
+    <li>
+      <img src="img/inner1_slider/slide7-01.png">
+    </li>
+    <li>
+      <img src="img/inner1_slider/slide8-01.png">
+    </li>
+    <li>
+      <img src="img/inner1_slider/slide10-01.png">
+    </li>
+    <li>
+      <img src="img/inner1_slider/slide11-01.png">
+    </li>
+    <li>
+      <img src="img/inner1_slider/slide12-01.png">
+    </li>
+    <li>
+      <img src="img/inner1_slider/slide13-01.png">
+    </li>
   </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/inner1_slider/slide1-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide2-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide3-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide4-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide5-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide6-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide7-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide8-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide9-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide10-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide11-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide12-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner1_slider/slide13-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-  </div>
 </div>
-
-
 
 <!-- Section One on inner pages -->
 
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Hardco Engineering Co.</h4>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Hardco Engineering</h4>
       <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Structural Steel</span>
       <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Hardco utilizes most appropriate technologies to ensure <br>
-      Outstanding performance and quality in all our steel<br>
-      fabrications. Through the history of the company we <br>
-      have undergone technological innovations
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Specialists in Structural Steel Design, Fabrication and Erection/Installation, with extensive experience in  Industrial & Commercial projects providing turnkey solutions.
+Hardco Engineering utilizes the most appropriate and modern technologies to ensure that the projects are delivered on time assured with utmost quality.
+
       </p>
     </div>
   </div>
 </section>
 
 
+<!-- 360 degree -->
 
-<!-- 360 imaage -->
-    <!-- <section class="inner_page_3601 desktop-d-n"></section>  -->
-    <div class="cycle mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
+
+    <div id="container" style="width: 100%; height: 600px;"></div>
+
+
+
 
 <!-- First Panel Innerpage -->
 
@@ -195,15 +109,17 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">We have carried out a wide spectrum of services in fabrication and erection of specialized steel works and civil as well with competitive prices 
-        without compromising in quality.</p>
-        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">To that end, our mission is: To add value to our customers and business partners through the 
-        unequivocal quality of our services and products.</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">SPECIALISTS IN STRUCTURAL STEEL DESIGN, FABRICATION AND ERECTION/INSTALLATION, WITH EXTENSIVE EXPERIENCE IN INDUSTRIAL & COMMERCIAL PROJECTS PROVIDING TURNKEY SOLUTIONS</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">HARDCO ENGINEERING UTILIZES THE MOST APPROPRIATE AND MODERN TECHNOLOGIES TO ENSURE THAT THE PROJECTS ARE DELIVERED ON TIME ASSURED WITH UTMOST QUALITY. </p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">We have carried out a wide spectrum of services in fabrication and erection of specialized steel works and civil as well with competitive prices without compromising in quality.</p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">To that end, our mission is: To add value to our customers and business partners through the 
+        unequivocal quality of our services and products.</p>
+      </div> -->
 
 <div class="clearfix"> </div>
 
@@ -243,12 +159,10 @@ experienced personnel.</p>
 </section>
 
 
+<!-- 360 degree -->
 
-<!-- 360 nd -->
 
-<section class="inner_page_3602 desktop-d-n"></section>
-
-  <div class="cycle2 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
+    <div id="container2" style="width: 100%; height: 600px;"></div>
 
 <!-- Footer  -->
 
@@ -259,19 +173,6 @@ experienced personnel.</p>
 <!-- End Of footer  -->
 
 
-
-<style type="text/css">
-        .cycle {
-        background-image: url(img/innperpage1360-01.jpg);
-        height: 512px;
-        cursor: move;
-      }
-      .cycle2 {        
-        background-image: url(img/innperpage13602-01.jpg);
-        height: 512px;
-        cursor: move;
-      }
-</style>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -290,18 +191,42 @@ experienced personnel.</p>
         new WOW().init();
     </script>
 
+
+
     <!--  360* Images  -->
-    <script src="js/jquery.cyclotron.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/photo-sphere-viewer.min.js"></script>
 
     <script type="text/javascript">
-      // 360* Image Cover
+      var div = document.getElementById('container');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0085.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
 
-          $(document).ready(function ($) {
-            $('.cycle').cyclotron();
-          });
-          $(document).ready(function ($) {
-            $('.cycle2').cyclotron();
-          });
+
+      var div = document.getElementById('container2');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/image_treqin_faqeepare.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
     </script>
+
+<!-- slider Script -->
+<script src="js/ism-2.2.min.js"></script>
+
+
+
 </body> 
 </html>

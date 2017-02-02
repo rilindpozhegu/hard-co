@@ -28,6 +28,8 @@
     <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
+<!-- Slider Style -->
+<link rel="stylesheet" href="css/my-slider.css"/>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -52,96 +54,34 @@
 ?>
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" data-image_fx="zoompan" id="my-slider">
+  <ol>
+    <li>
+      <img src="img/inner3_slider/slide1-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide2-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide3-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide4-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide6-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide7-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide8-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide9-01.png">
+    </li>
   </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/inner3_slider/slide1-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide2-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide3-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide4-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide5-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide6-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide7-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide8-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide9-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner3_slider/slide10-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-  </div>
 </div>
-
-
 
 
 
@@ -150,28 +90,21 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Tensile Membrane Structure</h4>
-      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Hardco Tents & Sheds</span>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">HARDCO TENTS & SHEDS (UAE) / HARTEX WLL (QATAR)</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">TNESILE FABRIC MEMBRANE STRUCTURE</span>
       <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Design that combines art, science, aesthetics and engineering defines HARDCO Tensile Membrane Structures. Each <br>
-structure is well suited and tailored to meet the specifics of the region. HARDCO's membranes are durable, dimensionally<br>
- stable and specially treated against fire and UV factors. We have been admired by our clients and respected by our <br>
-industry for delivering on time product that consistently exceeds the expectations of our clients. <br>
-World class trained and experienced fabricators of very large tensile fabric structures. Experienced design and <br>
-engineering department comprises of mechanical, structural and project management team & engineers 
-
-
-
-      </p>
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Design that combines art, science, aesthetics and engineering defines HARDCO Tensile Membrane Structures. Each structure is well suited and tailored to meet the specifics of the region. HARDCO's membranes are durable, dimensionall stable and specially treated against fire and UV factors. We have been admired by our clients and respected by our
+      industry for delivering on time product that consistently exceeds the expectations of our clients. World class trained and experienced fabricators of very large tensile fabric structures. Experienced design and engineering department comprises of mechanical, structural and project management team & engineers</p>
     </div>
   </div>
 </section>
 
 
 
-<!-- 360 imaage -->
-<section class="image360 inner_page_3360 desktop-d-n"></section>
-<div class="cycle5 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
+<!-- 360 degree -->
+
+
+    <div id="container" style="width: 100%; height: 600px;"></div>
 
 
 
@@ -183,9 +116,7 @@ engineering department comprises of mechanical, structural and project managemen
       <div class="col-md-6 panel_inner_text">
         <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Installation</p>
         <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Our team of trained installers have extensive experience in the delicate procedures of installing HARDCO's unique brand architectural membranes. Quality control and safety site supervisors will oversee the installation process to ensure that the final product reflects our 
-exacting standards.
-Across the GCC region, the HARDCO designed and 
-installed architectural membranes stand as a testimony to our list of satisfied customers.</p>
+exacting standards.</p>
       </div>
     </div>
   </div>
@@ -214,6 +145,22 @@ installed architectural membranes stand as a testimony to our list of satisfied 
   </div>
 </section>
 
+<!-- third Panel Innerpage -->
+
+<section class="inner_panel3_3 ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 panel_inner_text">
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Fabrics Used </p>
+        <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+        Across the GCC region, the HARDCO designed and 
+        installed architectural membranes stand as a testimony to our list of satisfied customers.</p>
+      </div>
+    <div class="col-md-6"></div>
+    </div>
+  </div>
+</section>
+
 
 
 <div class="clearfix"> </div>
@@ -231,15 +178,6 @@ installed architectural membranes stand as a testimony to our list of satisfied 
 ?>
 
 <!-- End Of footer  -->
-
-<!-- 360* images  -->
-<style type="text/css">
-        .cycle5 {
-        background-image: url(img/innperpage3360-01.jpg);
-        height: 512px;
-        cursor: move;
-      }
-</style>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -259,15 +197,26 @@ installed architectural membranes stand as a testimony to our list of satisfied 
     </script>
 
 
-    <!--  360* Images  -->
-    <script src="js/jquery.cyclotron.js"></script>
-    <script type="text/javascript">
-      // 360* Image Cover
 
-          $(document).ready(function ($) {
-            $('.cycle5').cyclotron();
-          });
+    <!--  360* Images  -->
+    <script src="js/three.min.js"></script>
+    <script src="js/photo-sphere-viewer.min.js"></script>
+
+    <script type="text/javascript">
+      var div = document.getElementById('container');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0068.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
     </script>
+<!-- slider Script -->
+<script src="js/ism-2.2.min.js"></script>
 </body> 
 
 </html>

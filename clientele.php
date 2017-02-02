@@ -72,86 +72,200 @@
         <div class="row">
             <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">OUR CLIENTELE</h4>
             <hr class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-            <div class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo1-01.png">
+            <div class=" wow fadeInUp mobile-d-n" data-wow-duration="1s" data-wow-delay=".5s" >
+                <div class="col-md-1">
+                    <img src="img/clientele/ACC.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo2-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/ADEC.gif">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo3-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/ADNEC.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo4-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/AECOM.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo5-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/AFCG.jpg">
                 </div>
-                <div class="col-md-1"></div>
-            </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Al Ain Convention Ceter.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Al Ain Municipality.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Al Futtaim Carillion.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Al Habtoor Eng. Enterprises.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/ALEC.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/ALUMCO.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/American School UAE.jpg">
+                </div>
+
 <div class="clearfix"></div>
-            <div class="mobile-d-n wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo1-01.png">
+
+                
+                <div class="col-md-1">
+                    <img src="img/clientele/ARABTEC.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo2-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/ATKINS.png">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo3-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Blair Anderson.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo4-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Bovis.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo5-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/David Dexter.png">
                 </div>
-                <div class="col-md-1"></div>
-            </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Department of Public works Sharjah.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/DIFC.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Dowell Schlumberger.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Dubai Municipality.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Dubai Properties.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/EC Harris.png">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Engineers Office.jpg">
+                </div>
+
+
 <div class="clearfix"></div>
-            <div class="mobile-d-n wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo1-01.png">
+                
+                <div class="col-md-1">
+                    <img src="img/clientele/Fugro Middle East.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo2-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/GHD.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo3-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Global Village.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo4-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Godwin Austen Johnson.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo5-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Goverment Of Sharjah.png">
                 </div>
-                <div class="col-md-1"></div>
-                </div>    
+                <div class="col-md-1">
+                    <img src="img/clientele/Gulftainer Co. Ltd..jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Habtoor Leighton Group.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Hyder.png">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/ISZL.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Khansaheb.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Khayyat.png">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Kling Consult ME.jpg">
+                </div>
+
 <div class="clearfix"></div>
-            <div class="mobile-d-n wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo1-01.png">
+                
+                <div class="col-md-1">
+                    <img src="img/clientele/Kuwait University.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo2-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/MACE.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo3-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/MIRAL.jpg">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo4-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Mott MacDonald.gif">
                 </div>
-                <div class="col-md-2">
-                    <img src="img/logo_demo5-01.png">
+                <div class="col-md-1">
+                    <img src="img/clientele/Naboodah.jpg">
                 </div>
-                <div class="col-md-1"></div>
-                </div>                            
+                <div class="col-md-1">
+                    <img src="img/clientele/NAEL.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/New Doha Intl.Airport.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Planquadrat.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Qatar Petroleum.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/RMJM.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Sama Dubai.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Seele.gif">
+                </div>
+<div class="clearfix"></div>
+                
+                <div class="col-md-1">
+                    <img src="img/clientele/Shankland Cox.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Sharjah Muncipality.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Sharjah Port Authorities..jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Shurooq.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/TURNER.gif">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Vector Foiltec UK.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Vector Foiltec.png">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Waagner Biro Gulf.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/WSP.png">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Yapi Merkazi.jpg">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/clientele/Yapi Merkazi.jpg">
+                </div>             
             </div>
+                         
+        </div>
     </div>
 </section>
 

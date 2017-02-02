@@ -28,6 +28,8 @@
     <link rel="stylesheet" type="text/css" href="css/structural_steel.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
+<!-- Slider Style -->
+<link rel="stylesheet" href="css/my-slider.css"/>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -51,30 +53,35 @@
     include('navigation_bar.php');
 ?>
 
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <!-- <li data-target="#carousel-example-generic" data-slide-to="1"></li> -->
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" data-image_fx="zoompan" id="my-slider">
+  <ol>
+    <li>
+      <img src="img/inner4_slider/inner_cover4-01.png">
+    </li><!-- 
+    <li>
+      <img src="img/inner3_slider/slide2-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide3-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide4-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide6-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide7-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide8-01.png">
+    </li>
+    <li>
+      <img src="img/inner3_slider/slide9-01.png">
+    </li> -->
   </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/inner4_slider/inner_cover4-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-<!--     <div class="item">
-      <img src="img/inner_cover1-01.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div> -->
-  </div>
 </div>
+
 
 
 
@@ -83,10 +90,10 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Wood Coatings</h4>
-      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Emirates ICA</span>
-      <hr class="first_text_line  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">Emirates ica is the exclusive partner for italian manufacturers of high quality coatings for wood in uae, oman and kuwait and distributor of top-notch products for furniture, marine industry and more. </p>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Emirates ICA</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Wood Coatings</span>
+      <hr class="first_text_line  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">Emirates ICA is the exclusive partner for italian manufacturers of high quality coatings for wood in uae, oman and kuwait and distributor of top-notch products for furniture, marine industry and more. </p>
       <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">Having been present in the u.A.E for over 25 years, we supply many of the top furniture manufacturers, designers, yacht interiors and mould manufacturers. We are expert in overcoming the common problems associated with heat, dust and high humidity; specialising in water based product that are uv resistant and water repellant to be applied particularly for exterior furniture and fit outs.
 Having been present in the u.A.E for over 25 years, we supply many of the top furniture manufacturers, designers, yacht interiors and mould manufacturers. We are expert in overcoming the common problems associated with heat, dust and high humidity; specialising in water based product that are uv resistant and water repellant to be applied particularly for exterior furniture and fit outs.
 </p>
@@ -98,18 +105,19 @@ products.</p>
 
 
 
-<!-- 360 imaage -->
-<!-- <section class="image360 inner_page_3360"></section> -->
+<!-- 360 degree -->
 
 
+    <div id="container" style="width: 100%; height: 600px;"></div>
 
+    
 <!-- First Panel Innerpage -->
 
 <section class="inner_panel1_4">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 panel_inner_text">
-        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Ica group</p>
+        <p style="font-weight: bolder;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">EMIRATES ICA / ICA GROUP</p>
         <p class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Italian based company <br>
         Specialists in the formulation, manufacture and marketing<br>
         of special coatings for wood.</p>
@@ -253,9 +261,11 @@ products the solutions to many problems of coating applications, improving their
 
 
 <div class="clearfix"> </div>
-<!-- 360 nd -->
 
-<!-- <section class="inner_page_33602"></section>
+<!-- 360 degree -->
+
+
+    <div id="container2" style="width: 100%; height: 600px;"></div>
  -->
 <!-- Footer  -->
 
@@ -283,6 +293,37 @@ products the solutions to many problems of coating applications, improving their
         new WOW().init();
     </script>
 
+    <!--  360* Images  -->
+    <script src="js/three.min.js"></script>
+    <script src="js/photo-sphere-viewer.min.js"></script>
+
+    <script type="text/javascript">
+      var div = document.getElementById('container');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0114.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
+
+      var div = document.getElementById('container2');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0101.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
+    </script>
+<!-- slider Script -->
+<script src="js/ism-2.2.min.js"></script>
 </body> 
 
 </html>

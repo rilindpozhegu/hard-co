@@ -1,5 +1,5 @@
 #overlay{
-	background-color: rgb(140, 12, 12);
+	background-color: white;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -27,7 +27,7 @@
 .object{
 	width: 20px;
 	height: 20px;
-	background-color: #FFF;
+	background-color: rgb(212, 45, 32);
 	float: left;
 	-moz-border-radius: 50% 50% 50% 50%;
 	-webkit-border-radius: 50% 50% 50% 50%;

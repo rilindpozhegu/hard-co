@@ -97,11 +97,11 @@
 <!-- Mission Testimonial Section -->
 <section class="testimonial_seciton_mission">
     <div class="container">
-        <div class="row">
+        <div class="row"><!-- 
             <div class="col-md-5">
                 <img src="img/mission_testimonial-01.png"  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            </div>
-            <div class="col-md-7">
+            </div> -->
+            <div class="col-md-12">
                 <h3 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Aref Derbas</h3>
                 <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">CEO,HARDCO</h4>
                 <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">The HARDCO group has been built by a combination of effective conversion of opportunities, organic growth of our diverse businesses and by successfully providing quality services on turnkey projects. <br>

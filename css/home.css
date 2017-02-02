@@ -49,7 +49,7 @@
 /*----------------------*/
 
 .intro-section { 
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 40px;
     text-align: center;
     background: #fff;
@@ -100,14 +100,14 @@
    margin-right: auto;
 }
 .home_2nd_section p {
-  color: #4d5166;
+  color: #231f20;
   font-size: 18px;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
-.home_2nd_section p span {
+/*.home_2nd_section p span {
   color: #231f20;
-}
+}*/
 
 .line_two {  
    border-width: 0.5px 0px 0;

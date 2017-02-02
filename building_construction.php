@@ -27,6 +27,8 @@
     <link rel="stylesheet" type="text/css" href="css/footer_all.css">
     <link rel="stylesheet" type="text/css" href="css/inner_pages.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
+<!-- Slider Style -->
+<link rel="stylesheet" href="css/my-slider.css"/>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -52,88 +54,35 @@
 ?>
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" data-image_fx="zoompan" id="my-slider">
+  <ol>
+    <li>
+      <img src="img/inner2_slider/slide1-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide2-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide3-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide4-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide5-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide7-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide8-01.png">
+    </li>
+    <li>
+      <img src="img/inner2_slider/slide9-01.png">
+    </li>
   </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/inner2_slider/slide1-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide2-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide3-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide4-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide5-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide6-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide7-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide8-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="img/inner2_slider/slide9-01.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-  </div>
 </div>
-
-
 
 
 <!-- Section One on inner pages -->
@@ -141,25 +90,30 @@
 <section class="text_section_inner">
   <div class="container">
     <div class="row">
-      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Building & Construction</h4>
-      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Hardco Building Contracting L.L.C</span>
+      <h4 class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">Hardco Building Contracting L.L.C</h4>
+      <span class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">Building & Construction</span>
       <hr class="first_text_line wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">The goals of HARDCO Building Contracting LLC are driven by the sheer need to provide cutting edge<br>
-       building contracting  services that think beyond architectural  design.<br>
-Our team is comprised of the industry's top technicians including Masons, carpenters, electricians, <br>
- ground workers, plumbers, welders, surveyors, engineers, project managers, building refurbishment<br>
-  specialists and more, working around the clock to ensure that the end result surpasses expectations.
-
+      <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">HARDCO BUILDING CONTRACTING IS DRIVEN BY THE CORE NEED TO PROVIDE CUTTING EDGE CIVIL ENGINEERING SOLUTIONS AND SERVICES THAT VISUALIZES BEYOUND ARCHITECTURAL DESIGN.
       </p>
+      <p>OUR EXPERT BUILDING AND CIVIL WORKS TEAM CONTINUOUSLY STIVES TO ENSURE THAT THE PROJECTS ARE EXECUTED WITH THE MOST UPDATED TECHNOLOGIES, WORKING ROUND THE CLOCK TO GUARANTEE TIME-BOUND COMPLETION WITH QUALITY AS THE FOREMOST PRIORITY.</p>
     </div>
   </div>
 </section>
 
 
+<!--       <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">The goals of HARDCO Building Contracting LLC are driven by the sheer need to provide cutting edge<br>
+       building contracting  services that think beyond architectural  design.<br>
+Our team is comprised of the industry's top technicians including Masons, carpenters, electricians, <br>
+ ground workers, plumbers, welders, surveyors, engineers, project managers, building refurbishment<br>
+  specialists and more, working around the clock to ensure that the end result surpasses expectations.
+      </p> -->
 
-<!-- 360 imaage -->
-<!-- <section class="image360 inner_page_2360"></section> -->
-<div class="cycle3 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
+
+<!-- 360 degree -->
+
+
+    <div id="container" style="width: 100%; height: 600px;"></div>
+
 
 
 <!-- First Panel Innerpage -->
@@ -219,7 +173,7 @@ relationship with our customers through our value added services and constant up
 <div class="clearfix"> </div>
 <!-- Forth Panel Innerpage -->
 
-<section class="inner_panel4_2 ">
+<!-- <section class="inner_panel4_2 ">
   <div class="container-fluid">
     <div class="row">
     <div class="col-md-6"></div>
@@ -232,12 +186,12 @@ provides the necessary skilled professionals and products to construct high stan
   </div>
 </section>
 
+ -->
+
+<!-- 360 degree -->
 
 
-<!-- 360 nd -->
-
-<section class="inner_page_23602 desktop-d-n"></section>
-<div class="cycle4 mobile-d-n" style="background-position: -4067.3560813933063px 50%; "></div>
+    <div id="container2" style="width: 100%; height: 600px;"></div>
 
 <!-- Footer  -->
 
@@ -245,19 +199,6 @@ provides the necessary skilled professionals and products to construct high stan
     include('footer.php');
 ?>
 
-<!-- End Of footer  -->
-<style type="text/css">
-        .cycle3 {
-        background-image: url(img/innperpage2360-01.jpg);
-        height: 512px;
-        cursor: move;
-      }
-      .cycle4 {        
-        background-image: url(img/innperpage23602-01.jpg);
-        height: 512px;
-        cursor: move;
-      }
-</style>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -276,18 +217,40 @@ provides the necessary skilled professionals and products to construct high stan
     </script>
 
 
-    <!--  360* Images  -->
-    <script src="js/jquery.cyclotron.js"></script>
-    <script type="text/javascript">
-      // 360* Image Cover
 
-          $(document).ready(function ($) {
-            $('.cycle3').cyclotron();
-          });
-          $(document).ready(function ($) {
-            $('.cycle4').cyclotron();
-          });
+    <!--  360* Images  -->
+    <script src="js/three.min.js"></script>
+    <script src="js/photo-sphere-viewer.min.js"></script>
+
+    <script type="text/javascript">
+      var div = document.getElementById('container');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0041.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
+
+      var div = document.getElementById('container2');
+      var PSV = new PhotoSphereViewer({
+          panorama: 'img/360_0064.JPG',
+          container: div,
+          time_anim: 3000,
+          navbar: true,
+          navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+          },
+        });
+
     </script>
+
+<!-- slider Script -->
+<script src="js/ism-2.2.min.js"></script>
+
 </body> 
 
 </html>

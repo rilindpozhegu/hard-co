@@ -18,3 +18,10 @@ $(function() {
     });
 });
 
+
+
+// Carousel Speed on the innerpages 
+
+ $('.carousel').carousel({
+   interval: 3000
+  });
